@@ -23,7 +23,7 @@ function nivel(){
 function cria_questionario(){
     if (num < questionario.length){
         let quant = 0
-        var ind = 1
+        var ind = 2
         let mm = 0
         
         for(let q = 0; q < questionario[num].length ; q++){
@@ -31,8 +31,8 @@ function cria_questionario(){
         }
         
         caixa.innerHTML += `
-        <img src="pexels-febe-vanermen-17827719.jpg" alt="dfgh">
-        <h2>`+ questionario[num][0] +`</h2>
+        <img src="`+questionario[num][0]+`" alt="dfgh">
+        <h2>`+ questionario[num][1] +`</h2>
         `
         while(quant >= ind){
             if(mm == 0){
@@ -58,7 +58,7 @@ function cria_questionario(){
             caixa.innerHTML += `
             <div id="final">
                 <h1>você esta triste</h1>
-                <img src="pexels-febe-vanermen-17827719.jpg" alt="fg">
+                <img src="evereste.jpg">
                 <p>eu sei que esta dificil mas tente a cada dia melhorar um pouco , tente ver graça nas pequenas coisas da vida</p>
             </div>
             `
@@ -68,7 +68,7 @@ function cria_questionario(){
             caixa.innerHTML += `
             <div id="final">
                 <h1>neutro</h1>
-                <img src="pexels-febe-vanermen-17827719.jpg" alt="fg">
+                <img src="evereste.jpg">
                 <p>você anda meio triste mas consegue ver a felicidade nas pequenas coisas, procuri ir por esse caminho da paz e alegria, nos acreditamos em você!</p>
             </div>
             `
@@ -78,7 +78,7 @@ function cria_questionario(){
             caixa.innerHTML += `
             <div id="final">
                 <h1>você é feliz !</h1>
-                <img src="pexels-febe-vanermen-17827719.jpg" alt="fg">
+                <img src="montanha nevada.jpg">
                 <p>você já é feliz, mas busque melhorar a cada dia, tenha mais empatia e não se abale quando tiver uma dificuldade.</p>
             </div>
             `
@@ -88,7 +88,7 @@ function cria_questionario(){
             caixa.innerHTML += `
             <div id="final">
                 <h1>você é muito feliz !!!</h1>
-                <img src="pexels-febe-vanermen-17827719.jpg" alt="fg">
+                <img src="montanha nevada.jpg">
                 <p>constinui assim, lembre-se de sempre buscar a paz e a felicidade interior!</p>
             </div>
             `
@@ -120,30 +120,35 @@ function quantos (){
 
 const questionario = [
     [
+        'evereste.jpg',
         'voce prefere estar',
         'com pessoas',
         'sozinho' ,
     ],
 
     [
+        'montanha nevada.jpg',
         'voce se considera',
         'feliz' ,
         'triste',
     ],
 
     [
+        'montanha nevada.jpg',
         'como se sente agora',
         'alegre',
         'cabisbaixo'
     ],
 
     [
+        'evereste.jpg',
         'você vê este copo ',
         'meio cheio',
         'meio vazio'
     ],
 
     [
+        'montanha nevada.jpg',
         'é da sua caracteristica ser ',
         'comprensivo',
         'iguinorante'
