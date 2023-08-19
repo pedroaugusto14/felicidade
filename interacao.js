@@ -58,7 +58,7 @@ function cria_questionario(){
             caixa.innerHTML += `
             <div id="final">
                 <h1>você esta triste</h1>
-                <img src="evereste.jpg">
+                <img src="evereste.jpg" alt="fom">
                 <p>eu sei que esta dificil mas tente a cada dia melhorar um pouco , tente ver graça nas pequenas coisas da vida</p>
             </div>
             `
