@@ -142,9 +142,9 @@ const questionario = [
 
     [
         'evereste.jpg',
-        'você vê este copo ',
-        'meio cheio',
-        'meio vazio'
+        'sua aotoestima é',
+        'boa',
+        'ruim'
     ],
 
     [
