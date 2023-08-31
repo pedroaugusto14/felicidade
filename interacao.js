@@ -121,14 +121,14 @@ function quantos (){
 const questionario = [
     [
         'evereste.jpg',
-        'voce prefere estar',
+        'você prefere estar',
         'com pessoas',
         'sozinho' ,
     ],
 
     [
         'montanha nevada.jpg',
-        'voce se considera',
+        'você se considera',
         'feliz' ,
         'triste',
     ],
@@ -151,7 +151,7 @@ const questionario = [
         'montanha nevada.jpg',
         'é da sua caracteristica ser ',
         'comprensivo',
-        'iguinorante'
+        'ignorante'
     ]
 ]
 
