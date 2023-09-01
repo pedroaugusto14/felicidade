@@ -59,7 +59,7 @@ function cria_questionario(){
             <div id="final">
                 <h1>você esta triste</h1>
                 <img src="evereste.jpg" alt="fom">
-                <p>eu sei que esta dificil mas tente a cada dia melhorar um pouco , tente ver graça nas pequenas coisas da vida</p>
+                <p>Eu sei que esta dificil mas tente a cada dia melhorar um pouco , tente ver graça nas pequenas coisas da vida</p>
             </div>
             `
         }
@@ -69,7 +69,7 @@ function cria_questionario(){
             <div id="final">
                 <h1>neutro</h1>
                 <img src="evereste.jpg">
-                <p>você anda meio triste mas consegue ver a felicidade nas pequenas coisas, procuri ir por esse caminho da paz e alegria, nos acreditamos em você!</p>
+                <p>Você anda meio triste mas consegue ver a felicidade nas pequenas coisas, procuri ir por esse caminho da paz e alegria, nos acreditamos em você!</p>
             </div>
             `
         }
@@ -79,7 +79,7 @@ function cria_questionario(){
             <div id="final">
                 <h1>você é feliz !</h1>
                 <img src="montanha nevada.jpg">
-                <p>você já é feliz, mas busque melhorar a cada dia, tenha mais empatia e não se abale quando tiver uma dificuldade.</p>
+                <p>Você já é feliz, mas busque melhorar a cada dia, tenha mais empatia e não se abale quando tiver uma dificuldade.</p>
             </div>
             `
         }
@@ -89,7 +89,7 @@ function cria_questionario(){
             <div id="final">
                 <h1>você é muito feliz !!!</h1>
                 <img src="montanha nevada.jpg">
-                <p>constinui assim, lembre-se de sempre buscar a paz e a felicidade interior!</p>
+                <p>Constinue assim, lembre-se de sempre buscar a paz e a felicidade interior!</p>
             </div>
             `
         }
